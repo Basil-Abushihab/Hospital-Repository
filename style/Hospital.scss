@@ -12,9 +12,11 @@
 
 #PatientCards {
   margin-top: 100px;
-  .ScrollableDiv {
+  #ScrollableDiv {
     overflow-x: scroll;
     white-space: nowrap;
+    display: flex;
+    flex-direction: row;
     .card {
       margin-left: 5%;
 

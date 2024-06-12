@@ -112,11 +112,11 @@
                 name="chronic"
               >
                 <option selected>Open this select menu</option>
-                <option value="1">Heart Disease</option>
-                <option value="2">Cancer</option>
-                <option value="3">Asthma</option>
-                <option value="4">Hypertension</option>
-                <option value="5">None</option>
+                <option value="Heart Disease">Heart Disease</option>
+                <option value="Cancer">Cancer</option>
+                <option value="Asthma">Asthma</option>
+                <option value="Hypertension">Hypertension</option>
+                <option value="None">None</option>
               </select>
               <br /><br />
               <div class="form-check">
@@ -125,7 +125,7 @@
                   type="radio"
                   name="gender"
                   id="flexRadioDefault1"
-                  value="Male"
+                  value="male"
                 />
                 <label class="form-check-label" for="flexRadioDefault1">
                   Male
@@ -139,7 +139,7 @@
                   name="gender"
                   id="flexRadioDefault2"
                   checked
-                  value="Female"
+                  value="female"
                 />
                 <label class="form-check-label" for="flexRadioDefault2">
                   Female
@@ -156,23 +156,7 @@
     </section>
 
     <section id="PatientCards">
-      <div class="ScrollableDiv">
-        <div class="card bg-primary" style="width: 300px">
-          <img
-            class="card-img-top"
-            src="assets/FemaleUser.jpeg"
-            alt="Card image"
-          />
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <h4 class="card-text">password:</h4>
-            <h4 class="card-text">password:</h4>
-            <h4 class="card-text">password:</h4>
-            <h4 class="card-text">password:</h4>
-            <h4 class="card-text">password:</h4>
-          </div>
-        </div>
-      </div>
+      <div id="ScrollableDiv"></div>
     </section>
     <script src="Hospital.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
