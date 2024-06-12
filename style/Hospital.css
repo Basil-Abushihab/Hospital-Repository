@@ -1,0 +1,23 @@
+#information-form #form-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#information-form #form-column #form {
+  width: 30%;
+}
+
+#PatientCards {
+  margin-top: 100px;
+}
+#PatientCards .ScrollableDiv {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+#PatientCards .ScrollableDiv .card {
+  margin-left: 5%;
+}
+#PatientCards .ScrollableDiv .card .card-img-top {
+  width: 100%;
+}/*# sourceMappingURL=Hospital.css.map */

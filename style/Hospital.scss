@@ -1,0 +1,26 @@
+#information-form {
+  #form-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #form {
+      width: 30%;
+    }
+  }
+}
+
+#PatientCards {
+  margin-top: 100px;
+  .ScrollableDiv {
+    overflow-x: scroll;
+    white-space: nowrap;
+    .card {
+      margin-left: 5%;
+
+      .card-img-top {
+        width: 100%;
+      }
+    }
+  }
+}
