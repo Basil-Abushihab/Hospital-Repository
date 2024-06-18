@@ -6,6 +6,14 @@
     align-items: center;
     #form {
       width: 30%;
+      .errorMessage {
+        color: red;
+        font-weight: bold;
+      }
+      .passwordErrorMessage {
+        color: red;
+        font-weight: bold;
+      }
     }
   }
 }

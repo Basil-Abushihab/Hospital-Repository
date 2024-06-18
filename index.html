@@ -64,7 +64,9 @@
                 />
               </div>
 
-              <br /><br />
+              <br />
+              <p class="errorMessage">Name needs to be free of spaces</p>
+              <br />
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"
                   >Date Of Birth</label
@@ -77,7 +79,11 @@
                   name="dateOfBirth"
                 />
               </div>
-              <br /><br />
+              <br />
+              <p class="errorMessage">
+                date of birth needs to be in the following format (YYYY-MM-DD)
+              </p>
+              <br />
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"
                   >Phone Number</label
@@ -91,7 +97,26 @@
                 />
               </div>
 
-              <br /><br />
+              <br />
+              <p class="errorMessage">
+                Phone number must contain 10 digits starting with (07)
+              </p>
+              <br />
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  name="email"
+                />
+              </div>
+              <br />
+              <p class="errorMessage">
+                Email must be of the following format "email@domain.com"
+              </p>
+              <br />
 
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label"
@@ -105,7 +130,25 @@
                 />
               </div>
 
-              <br /><br />
+              <br />
+              <ul>
+                <li class="passwordErrorMessage">
+                  Password must at least have one number
+                </li>
+                <li class="passwordErrorMessage">
+                  Password must have at least one lowercase charecter
+                </li>
+                <li class="passwordErrorMessage">
+                  Password must at least have one uppercase charecter
+                </li>
+                <li class="passwordErrorMessage">
+                  Password must at least have one special character
+                </li>
+                <li class="passwordErrorMessage">
+                  Password must contain at least 8 charcters
+                </li>
+              </ul>
+              <br />
               <select
                 class="form-select"
                 aria-label="Default select example"

@@ -7,6 +7,14 @@
 #information-form #form-column #form {
   width: 30%;
 }
+#information-form #form-column #form .errorMessage {
+  color: red;
+  font-weight: bold;
+}
+#information-form #form-column #form .passwordErrorMessage {
+  color: red;
+  font-weight: bold;
+}
 
 #PatientCards {
   margin-top: 100px;
